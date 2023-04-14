@@ -1,0 +1,10 @@
+version : 2
+
+sources:
+  - name: staging
+    database: prefect-de-zoomcamp-382123
+    schema: trip_data_all_info
+
+    tables:
+      - name: green_taxi_trips
+      - name: yellow_taxi_trips
